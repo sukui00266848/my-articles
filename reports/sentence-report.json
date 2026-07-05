@@ -1,359 +1,107 @@
 {
   "meta": {
-    "scannedFiles": 29,
+    "scannedFiles": 5,
     "maxLen": 30,
-    "totalSentences": 2509,
-    "totalChars": 5610,
-    "avgLen": 2.23595057791949
+    "totalSentences": 162,
+    "totalChars": 2393,
+    "avgLen": 14.771604938271604
   },
   "overlong": [
     {
-      "file": "article-template.md",
+      "file": "content\\article-template.md",
       "sentenceIndex": 2,
       "length": 32,
       "text": "2–3 句（不超过 200 字），直接提出读者痛点或悬念，用简洁明了的语言引导阅读。"
     },
     {
-      "file": "citation-guidelines.md",
+      "file": "content\\citation-guidelines.md",
       "sentenceIndex": 9,
       "length": 32,
       "text": "3. 古籍原典（国学馆、中华书局等标注卷/篇/条） — 必须标注卷/章/条/页或典籍子目。"
     },
     {
-      "file": "citation-guidelines.md",
+      "file": "content\\citation-guidelines.md",
       "sentenceIndex": 22,
       "length": 41,
       "text": "- 格式：书名. 卷/篇/条（若有）. 译本/校注（若用）. 出版社, 年份（如使用现代影印/译注则注明版本）"
     },
     {
-      "file": "citation-guidelines.md",
+      "file": "content\\citation-guidelines.md",
       "sentenceIndex": 29,
       "length": 36,
       "text": "1. 为每条声明找出 1 个以上权威来源（期刊/教材/古籍）或明确标注为\"经验描述/个案/观点\"。"
     },
     {
-      "file": "citation-guidelines.md",
+      "file": "content\\citation-guidelines.md",
       "sentenceIndex": 33,
       "length": 39,
       "text": "1. 医学/药事/剂量类内容必须经药师或医务审核并在稿件末附审阅记录（姓名/职称/审核日期）。"
     },
     {
-      "file": "citation-guidelines.md",
+      "file": "content\\citation-guidelines.md",
       "sentenceIndex": 34,
       "length": 41,
       "text": "2. 对古籍引用，需上传该古籍的权威版本信息（出版社/卷页/译注），若为二手引文需标注\"转引自 X\"。"
     },
     {
-      "file": "citation-guidelines.md",
+      "file": "content\\citation-guidelines.md",
       "sentenceIndex": 47,
       "length": 39,
       "text": "- 纠正：古籍引文应标注出处并注明\"为古代文献记载/历史资料\"，不可直接用于现代用药建议。"
     },
     {
-      "file": "citation-guidelines.md",
+      "file": "content\\citation-guidelines.md",
       "sentenceIndex": 51,
       "length": 35,
       "text": "- 对于\"古籍\"关键词（如《素问》《本草》）自动提示上传权威版本信息或标注\"二次核验必需\"。"
     },
     {
-      "file": "media-guidelines.md",
+      "file": "content\\media-guidelines.md",
       "sentenceIndex": 34,
       "length": 33,
       "text": "- 对于复杂背景（需要纸纹/书法），出于兼容性建议预合成一张背景图并使用 WebP。"
     },
     {
-      "file": "media-guidelines.md",
+      "file": "content\\media-guidelines.md",
       "sentenceIndex": 38,
       "length": 32,
       "text": "- 若图片包含医疗操作演示或人体图像，必须标注适用人群限制与免责声明。"
     },
     {
-      "file": "media-guidelines.md",
+      "file": "content\\media-guidelines.md",
       "sentenceIndex": 40,
       "length": 37,
       "text": "- 所有非原创图片必须附带授权凭证（采购单/授权邮件/购买记录），并在 meta.yml 的 source 或 purchase_id 字段标注。"
     },
     {
-      "file": "media-guidelines.md",
+      "file": "content\\media-guidelines.md",
       "sentenceIndex": 42,
       "length": 40,
       "text": "- CMS 上传/审核时必须上传授权文件到附件库并在稿件内填写授权凭证 ID（CI 可校验该字段是否为空）。"
     },
     {
-      "file": "media-guidelines.md",
+      "file": "content\\media-guidelines.md",
       "sentenceIndex": 44,
       "length": 49,
       "text": "- 若图片因版权问题需下线：运营在 PR 中添加替换图片并保留原 meta 文件（注明下线原因），并在文章末尾注释说明变更。"
     },
     {
-      "file": "media-guidelines.md",
+      "file": "content\\media-guidelines.md",
       "sentenceIndex": 49,
       "length": 32,
       "text": "- 在构建时检测图片尺寸与文件大小，不合格给出错误或警告（可用 sharp 脚本）。"
     },
     {
-      "file": "publish-checklist.md",
+      "file": "content\\publish-checklist.md",
       "sentenceIndex": 6,
       "length": 35,
       "text": "- [ ] 所有医学/处方/剂量相关段落已提交专家复核并有书面意见（责任人/审核人/时间）"
     },
     {
-      "file": "publish-checklist.md",
+      "file": "content\\publish-checklist.md",
       "sentenceIndex": 22,
       "length": 32,
       "text": "- [ ] 预案：若有用户投诉/版权问题的初步应对计划已就绪（责任人/联系方式）"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 9,
-      "length": 32,
-      "text": "> 2–3 句（不超过 200 字），直接提出读者痛点或悬念，用简洁明了的语言引导阅读。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 12,
-      "length": 32,
-      "text": "> 3. 古籍原典（国学馆、中华书局等标注卷/篇/条） — 必须标注卷/章/条/页或典籍子目。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 15,
-      "length": 41,
-      "text": "> - 格式：书名. 卷/篇/条（若有）. 译本/校注（若用）. 出版社, 年份（如使用现代影印/译注则注明版本）"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 18,
-      "length": 36,
-      "text": "> 1. 为每条声明找出 1 个以上权威来源（期刊/教材/古籍）或明确标注为\"经验描述/个案/观点\"。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 21,
-      "length": 39,
-      "text": "> 1. 医学/药事/剂量类内容必须经药师或医务审核并在稿件末附审阅记录（姓名/职称/审核日期）。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 24,
-      "length": 41,
-      "text": "> 2. 对古籍引用，需上传该古籍的权威版本信息（出版社/卷页/译注），若为二手引文需标注\"转引自 X\"。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 27,
-      "length": 39,
-      "text": "> - 纠正：古籍引文应标注出处并注明\"为古代文献记载/历史资料\"，不可直接用于现代用药建议。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 30,
-      "length": 35,
-      "text": "> - 对于\"古籍\"关键词（如《素问》《本草》）自动提示上传权威版本信息或标注\"二次核验必需\"。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 33,
-      "length": 33,
-      "text": "> - 对于复杂背景（需要纸纹/书法），出于兼容性建议预合成一张背景图并使用 WebP。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 36,
-      "length": 32,
-      "text": "> - 若图片包含医疗操作演示或人体图像，必须标注适用人群限制与免责声明。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 39,
-      "length": 37,
-      "text": "> - 所有非原创图片必须附带授权凭证（采购单/授权邮件/购买记录），并在 meta.yml 的 source 或 purchase_id 字段标注。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 42,
-      "length": 40,
-      "text": "> - CMS 上传/审核时必须上传授权文件到附件库并在稿件内填写授权凭证 ID（CI 可校验该字段是否为空）。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 45,
-      "length": 49,
-      "text": "> - 若图片因版权问题需下线：运营在 PR 中添加替换图片并保留原 meta 文件（注明下线原因），并在文章末尾注释说明变更。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 48,
-      "length": 32,
-      "text": "> - 在构建时检测图片尺寸与文件大小，不合格给出错误或警告（可用 sharp 脚本）。"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 51,
-      "length": 35,
-      "text": "> - [ ] 所有医学/处方/剂量相关段落已提交专家复核并有书面意见（责任人/审核人/时间）"
-    },
-    {
-      "file": "reports\\sentence-report.md",
-      "sentenceIndex": 54,
-      "length": 32,
-      "text": "> - [ ] 预案：若有用户投诉/版权问题的初步应对计划已就绪（责任人/联系方式）"
-    },
-    {
-      "file": "suggestions\\article-template.md.suggest.md",
-      "sentenceIndex": 3,
-      "length": 32,
-      "text": "2–3 句（不超过 200 字），直接提出读者痛点或悬念，用简洁明了的语言引导阅读。"
-    },
-    {
-      "file": "suggestions\\article-template.md.suggest.md",
-      "sentenceIndex": 7,
-      "length": 40,
-      "text": "## 辨证速查（若适用，放在显眼位置）\r使用表格展示要点（先在 Markdown 写好表格，转换器会渲染成 accessible table）。"
-    },
-    {
-      "file": "suggestions\\article-template.md.suggest.md",
-      "sentenceIndex": 10,
-      "length": 100,
-      "text": "## 图片与附件（示例）\r![alt 文本](images/<slug>_fig1.webp)\r<!-- 确保 images/<slug>_fig1.webp.meta.yml 已存在 -->\r\r## 参考文献\r[ref-1] 作者. 书名. 年. 页码\r[ref-2] ...\r\r## 自测清单（提交前勾选）\r- [ ] frontmatter 完整（title/digest/cover/author）\r- [ ] 句长检查通过（平均 ≤30 或无超长句）\r- [ ] 所有图片有 meta.yml 且 alt 已填写\r- [ ] 重要医学/用药/剂量相关段落已提交专家复核（若有）\r- [ ] 引用出处已填写并可复核"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 1,
-      "length": 32,
-      "text": "# 引用与来源规范（Citation Guidelines）\r\r目的\r- 保障文章中事实、古籍与学术引述可溯源、可查证；"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 8,
-      "length": 32,
-      "text": "3. 古籍原典（国学馆、中华书局等标注卷/篇/条） — 必须标注卷/章/条/页或典籍子目。"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 9,
-      "length": 66,
-      "text": "4. 学术综述与专家访谈（注明受访者、职称、访谈日期）\r5. 可靠新闻/政府/行业报告（用于事件/政策类）\r6. 个人博客/微信公众号等—— 仅作辅助，不作为权威事实来源；"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 12,
-      "length": 156,
-      "text": "年份（如使用现代影印/译注则注明版本）- 书籍/专著：\r  - 格式：作者. 书名. 版次（若有）. 出版地: 出版社, 年份. 页码（若引用）\r  - 示例：张三. 中医基础理论（第二版）. 北京: 中医古籍出版社, 2018. 页 123-125\r- 期刊文章：\r  - 格式：作者. 文章题目. 期刊名. 年;卷(期):起止页. DOI（若有）\r  - 示例：李四, 王五. 中医对失眠的辨治研究. 中医药学报. 2020;12(3):45-52. doi:10.xxx/xxx\r1. 为每条声明找出 1 个以上权威来源（期刊/教材/古籍）或明确标注为\"经验"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 14,
-      "length": 100,
-      "text": "- 格式：书名. 卷/篇/条（若有）. 译本/校注（若用）. 出版社, 年份（如使用现代影印/译注则注明版本）\r  - 示例：《素问》——《素问·六节藏精大论》. 《黄帝内经》校注版, 中华书局, 2005.\r- 网页/报告：\r1. 医学/药事/剂量类内容必须经药师或医务审核并在稿件末附审阅记录（"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 18,
-      "length": 64,
-      "text": "三、引用核验流程（作者提交前的自查）\r- 基本核验（作者负责）：\r  1. 为每条声明找出 1 个以上权威来源（期刊/教材/古籍）或明确标注为\"经验描述/个案/观点\"。"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 21,
-      "length": 55,
-      "text": "- 深度核验（编辑/研究员在必要时）：\r  1. 医学/药事/剂量类内容必须经药师或医务审核并在稿件末附审阅记录（姓名/职称/审核日期）。"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 24,
-      "length": 48,
-      "text": "四、引用元数据模板（每条引用至少填写）\r- 对于\"古籍\"关键词（如《素问》《本草》）自动提示上传权威版本信息或标注\"二"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 26,
-      "length": 34,
-      "text": "- type: book|article|classical|web|report\r- author:\r- title:\r- publisher:\r- year:\r- page_or_section:\r- url:\r- notes:（如\"转引自XXX\"）\r\r五、常见误区（示例）\r- 误：把\"古籍中的表述\"直接当作现代临床建议。"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 27,
-      "length": 39,
-      "text": "- 纠正：古籍引文应标注出处并注明\"为古代文献记载/历史资料\"，不可直接用于现代用药建议。"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 28,
-      "length": 39,
-      "text": "六、最小自动化建议（可立即实现）\r- 在构建时自动检测方括号/脚注是否存在来源字段为空；"
-    },
-    {
-      "file": "suggestions\\citation-guidelines.md.suggest.md",
-      "sentenceIndex": 30,
-      "length": 35,
-      "text": "- 对于\"古籍\"关键词（如《素问》《本草》）自动提示上传权威版本信息或标注\"二次核验必需\"。"
-    },
-    {
-      "file": "suggestions\\media-guidelines.md.suggest.md",
-      "sentenceIndex": 4,
-      "length": 43,
-      "text": "一、命名与存放（必须）\r- 存放路径：`/images/<article-slug>/` 或 `images/`（项目按团队习惯）\r- 文件命名约定（必需）：`<article-slug>_<role>.<ext>`\r  - role 示例：cover, thumb, fig1, fig2, author, diagram\r  - 示例：sleeping_tips_cover.webp；"
-    },
-    {
-      "file": "suggestions\\media-guidelines.md.suggest.md",
-      "sentenceIndex": 7,
-      "length": 148,
-      "text": "二、meta 文件（每张图必须有同名 .meta.yml）\r- 放置位置：与图片同目录，文件名为 `xxx.webp.meta.yml`（或 `.jpg.meta.yml`）\r- 模板（image.meta.yml.template，必须生成并补全）：\r\r```yaml\r# image.meta.yml.template\rfilename: sleeping_tips_cover.webp\rtitle: \"\"            # 简短描述（供 ALT 使用）\ralt: \"\"              # 必填：图片替代文本\rphotographer: \"\"     # 摄影/绘图者（若公司素材请写 internal）\rsource: \"\"           # 素材来源（URL 或采购单号）\rlicense: \"\"          # 许可类型（e.g., CC-BY-4.0 / Licensed / Purchased）\rpurchase_id: \"\"      # 若为购买素材，写入采购单号或授权凭证id\rusage_rights_until: \"\" # YYYY-MM-DD（若有时限）\rnotes: \"\"            # 额外说明（如裁剪要求/作者备注）\r- 对于复杂背景（需要纸纹/书法），"
-    },
-    {
-      "file": "suggestions\\media-guidelines.md.suggest.md",
-      "sentenceIndex": 22,
-      "length": 32,
-      "text": "- 若图片包含医疗操作演示或人体图像，必须标注适用人群限制与免责声明。"
-    },
-    {
-      "file": "suggestions\\media-guidelines.md.suggest.md",
-      "sentenceIndex": 23,
-      "length": 49,
-      "text": "五、版权与证据保全（必须）\r- 所有非原创图片必须附带授权凭证（采购单/授权邮件/购买记录），并在 meta.yml 的 source 或 purchase_id 字段标注。"
-    },
-    {
-      "file": "suggestions\\media-guidelines.md.suggest.md",
-      "sentenceIndex": 25,
-      "length": 40,
-      "text": "- CMS 上传/审核时必须上传授权文件到附件库并在稿件内填写授权凭证 ID（CI 可校验该字段是否为空）。"
-    },
-    {
-      "file": "suggestions\\media-guidelines.md.suggest.md",
-      "sentenceIndex": 26,
-      "length": 57,
-      "text": "六、替换与回滚策略\r- 若图片因版权问题需下线：运营在 PR 中添加替换图片并保留原 meta 文件（注明下线原因），并在文章末尾注释说明变更。"
-    },
-    {
-      "file": "suggestions\\media-guidelines.md.suggest.md",
-      "sentenceIndex": 28,
-      "length": 32,
-      "text": "七、最小自动化建议（可以立刻实现）\r- 使用 image-meta-gen.js 在 PR 时自动生成缺失的 .meta.yml 模板文件；"
-    },
-    {
-      "file": "suggestions\\media-guidelines.md.suggest.md",
-      "sentenceIndex": 30,
-      "length": 32,
-      "text": "- 在构建时检测图片尺寸与文件大小，不合格给出错误或警告（可用 sharp 脚本）。"
-    },
-    {
-      "file": "suggestions\\publish-checklist.md.suggest.md",
-      "sentenceIndex": 1,
-      "length": 62,
-      "text": "# 发布前检查清单（Publish Checklist）\r\r请在发布前逐项确认并填写责任人/时间：\r\r## 内容与合规\r- [ ] 所有医学/处方/剂量相关段落已提交专家复核并有书面意见（责任人/审"
-    },
-    {
-      "file": "suggestions\\publish-checklist.md.suggest.md",
-      "sentenceIndex": 2,
-      "length": 261,
-      "text": "核人/时间）- [ ] 句长检查通过（脚本结果/人工抽样）（责任人：__）\r- [ ] 所有医学/处方/剂量相关段落已提交专家复核并有书面意见（责任人/审核人/时间）\r- [ ] 所有引用有至少一个权威来源并填写引用元数据（责任人：__）\r\r## 图片与媒体\r- [ ] 所有图片存在对应 .meta.yml 并补全必填字段（alt/photographer/source/license）（责任人：__）\r- [ ] 封面尺寸/格式合规（宽度 ≥1200px，WebP 优先，文件大小 < 300KB）（责任人：__）\r\r## 可读性与样式\r- [ ] 段落、标题、列表格式符合编辑风格指南（责任人：__）\r- [ ] 标题/摘要通过 A/B 初审（如适用）（责任人：__）\r- [ ] 图表/表格含 caption 与数据来源（责任人：__）\r\r## 技术与发布\r- [ ] 构建器成功生成内联 HTML（无 class/variables 丢失）（责任人：__）\r- [ ] 预案：若有用户投诉/版权问题的初步应对计划已就绪（责任人/联系方"
-    },
-    {
-      "file": "suggestions\\publish-checklist.md.suggest.md",
-      "sentenceIndex": 3,
-      "length": 90,
-      "text": "式）- [ ] 所有外链/资源可访问（无 404）（责任人：__）\r\r## 发布确认\r- [ ] 最终稿件经主编或运营终审（签名/时间）\r- [ ] 上线时间/推送渠道确认（运营/增长）\r- [ ] 预案：若有用户投诉/版权问题的初步应对计划已就绪（责任人/联系方式）"
     }
   ]
 }

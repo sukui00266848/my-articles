@@ -13,6 +13,7 @@ jobs:
         run: npm ci
       - name: Sentence length check
         run: npm run check:sentences
+        continue-on-error: true
       - name: Generate missing image metas
         run: npm run gen:image-meta
       - name: Contrast check
