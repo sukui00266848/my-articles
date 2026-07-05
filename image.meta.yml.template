@@ -1,0 +1,10 @@
+﻿# image.meta.yml.template
+filename: ""            # e.g., sleeping_tips_cover.webp
+title: ""               # 简短描述（供 ALT 使用）
+alt: ""                 # 必填：图片替代文本
+photographer: ""        # 摄影/绘图者（若公司素材请写 internal）
+source: ""              # 素材来源（URL 或采购单号）
+license: ""             # 许可类型（e.g., CC-BY-4.0 / Licensed / Purchased）
+purchase_id: ""         # 若为购买素材，写入采购单号或授权凭证id
+usage_rights_until: ""  # YYYY-MM-DD（若有时限）
+notes: ""               # 额外说明（如裁剪要求/作者备注）

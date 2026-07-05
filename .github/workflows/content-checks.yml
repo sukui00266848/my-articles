@@ -1,0 +1,19 @@
+﻿name: Content Checks
+on: [pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      - name: Install deps
+        run: npm ci
+      - name: Sentence length check
+        run: npm run check:sentences
+      - name: Generate missing image metas
+        run: npm run gen:image-meta
+      - name: Contrast check
+        run: npm run check:contrast

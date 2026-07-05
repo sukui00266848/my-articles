@@ -1,0 +1,15 @@
+﻿{
+  "name": "article-quality-scripts",
+  "version": "1.0.0",
+  "description": "Helper scripts: sentence checker, image meta generator, contrast checker",
+  "scripts": {
+    "check:sentences": "node scripts/sentence-checker.js content/ 30",
+    "gen:image-meta": "node scripts/image-meta-gen.js content/",
+    "check:contrast": "node scripts/contrast-check.js jiangshan-palettes.json"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "chroma-js": "^2.4.2"
+  }
+}
