@@ -1,0 +1,17 @@
+name: Publish image-guidelines artifact
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  publish-doc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload image-guidelines artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: image-guidelines
+          path: content/image-guidelines.md
