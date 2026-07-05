@@ -18,7 +18,7 @@ jobs:
       - name: Contrast check
         run: npm run check:contrast
       - name: Generate sentence report (JSON + MD)
-        run: node scripts/generate-sentence-report.js ./content 30
+        run: node scripts/generate-sentence-report.js . 30
         continue-on-error: true
       - name: Upload sentence report artifact
         uses: actions/upload-artifact@v4
