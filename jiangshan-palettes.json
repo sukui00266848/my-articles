@@ -1,0 +1,43 @@
+{
+  "families": [
+    {
+      "id": "jiangshan",
+      "name": "千里江山",
+      "variants": [
+        {
+          "id": "default",
+          "name": "象牙白底",
+          "palette": {
+            "text": "#1A6B5A",
+            "title": "#0F4D40",
+            "paper": "#FDF8F0",
+            "gold": "#C49A3C",
+            "green": "#2D8F6E"
+          }
+        },
+        {
+          "id": "silk",
+          "name": "绢底暖色",
+          "palette": {
+            "text": "#1A6B5A",
+            "title": "#0F4D40",
+            "paper": "#EDE5D5",
+            "gold": "#C49A3C",
+            "green": "#2D8F6E"
+          }
+        },
+        {
+          "id": "gold-title",
+          "name": "金碧标题",
+          "palette": {
+            "text": "#1A6B5A",
+            "title": "#A0782C",
+            "paper": "#FDF8F0",
+            "gold": "#C49A3C",
+            "green": "#2D8F6E"
+          }
+        }
+      ]
+    }
+  ]
+}
