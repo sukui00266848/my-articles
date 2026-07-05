@@ -1,4 +1,4 @@
-﻿name: Content Checks
+name: Content Checks
 on: [pull_request]
 jobs:
   checks:

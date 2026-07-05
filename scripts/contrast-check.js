@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 // scripts/contrast-check.js
 // Usage: node scripts/contrast-check.js jiangshan-palettes.json [familyId] [variantId]
 

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 // scripts/image-meta-gen.js
 // Usage: node scripts/image-meta-gen.js content/
 

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 // scripts/sentence-checker.js
 // Usage: node scripts/sentence-checker.js content/ 30
 
