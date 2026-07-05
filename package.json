@@ -5,7 +5,7 @@
   "scripts": {
     "check:sentences": "node scripts/sentence-checker.js content/ 30",
     "gen:image-meta": "node scripts/image-meta-gen.js content/",
-    "check:contrast": "node scripts/contrast-check.js jiangshan-palettes.example.json",
+    "check:contrast": "node scripts/contrast-check.js jiangshan-palettes.json",
     "gen:report": "node scripts/generate-sentence-report.js ./content 30",
     "gen:suggestions": "node scripts/auto-split-suggestions.js ./reports/sentence-report.json ./content 30"
   },
