@@ -1,0 +1,28 @@
+{
+  "families": [
+    {
+      "id": "jiangshan",
+      "name": "千里江山（示例）",
+      "variants": [
+        {
+          "id": "default",
+          "name": "默认",
+          "palette": {
+            "text": "#222222",
+            "title": "#111111",
+            "paper": "#ffffff"
+          }
+        },
+        {
+          "id": "sepia",
+          "name": "暖色",
+          "palette": {
+            "text": "#3b2f2f",
+            "title": "#2b1f1f",
+            "paper": "#f6efe6"
+          }
+        }
+      ]
+    }
+  ]
+}
