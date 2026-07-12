@@ -1,107 +1,605 @@
 {
   "meta": {
-    "scannedFiles": 5,
+    "scannedFiles": 11,
     "maxLen": 30,
-    "totalSentences": 162,
-    "totalChars": 2393,
-    "avgLen": 14.771604938271604
+    "totalSentences": 1014,
+    "totalChars": 15846,
+    "avgLen": 15.627218934911243
   },
   "overlong": [
     {
-      "file": "content\\article-template.md",
-      "sentenceIndex": 2,
-      "length": 32,
-      "text": "2–3 句（不超过 200 字），直接提出读者痛点或悬念，用简洁明了的语言引导阅读。"
-    },
-    {
-      "file": "content\\citation-guidelines.md",
-      "sentenceIndex": 9,
-      "length": 32,
-      "text": "3. 古籍原典（国学馆、中华书局等标注卷/篇/条） — 必须标注卷/章/条/页或典籍子目。"
-    },
-    {
-      "file": "content\\citation-guidelines.md",
-      "sentenceIndex": 22,
-      "length": 41,
-      "text": "- 格式：书名. 卷/篇/条（若有）. 译本/校注（若用）. 出版社, 年份（如使用现代影印/译注则注明版本）"
-    },
-    {
-      "file": "content\\citation-guidelines.md",
-      "sentenceIndex": 29,
-      "length": 36,
-      "text": "1. 为每条声明找出 1 个以上权威来源（期刊/教材/古籍）或明确标注为\"经验描述/个案/观点\"。"
-    },
-    {
-      "file": "content\\citation-guidelines.md",
-      "sentenceIndex": 33,
-      "length": 39,
-      "text": "1. 医学/药事/剂量类内容必须经药师或医务审核并在稿件末附审阅记录（姓名/职称/审核日期）。"
-    },
-    {
-      "file": "content\\citation-guidelines.md",
-      "sentenceIndex": 34,
-      "length": 41,
-      "text": "2. 对古籍引用，需上传该古籍的权威版本信息（出版社/卷页/译注），若为二手引文需标注\"转引自 X\"。"
-    },
-    {
-      "file": "content\\citation-guidelines.md",
-      "sentenceIndex": 47,
-      "length": 39,
-      "text": "- 纠正：古籍引文应标注出处并注明\"为古代文献记载/历史资料\"，不可直接用于现代用药建议。"
-    },
-    {
-      "file": "content\\citation-guidelines.md",
-      "sentenceIndex": 51,
-      "length": 35,
-      "text": "- 对于\"古籍\"关键词（如《素问》《本草》）自动提示上传权威版本信息或标注\"二次核验必需\"。"
-    },
-    {
-      "file": "content\\media-guidelines.md",
-      "sentenceIndex": 34,
-      "length": 33,
-      "text": "- 对于复杂背景（需要纸纹/书法），出于兼容性建议预合成一张背景图并使用 WebP。"
-    },
-    {
-      "file": "content\\media-guidelines.md",
-      "sentenceIndex": 38,
-      "length": 32,
-      "text": "- 若图片包含医疗操作演示或人体图像，必须标注适用人群限制与免责声明。"
-    },
-    {
-      "file": "content\\media-guidelines.md",
-      "sentenceIndex": 40,
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 15,
       "length": 37,
-      "text": "- 所有非原创图片必须附带授权凭证（采购单/授权邮件/购买记录），并在 meta.yml 的 source 或 purchase_id 字段标注。"
+      "text": "仓库有货（气血充足），地址正确（子宫没有病变），但货送不到——因为**通道被压住了**。"
     },
     {
-      "file": "content\\media-guidelines.md",
-      "sentenceIndex": 42,
-      "length": 40,
-      "text": "- CMS 上传/审核时必须上传授权文件到附件库并在稿件内填写授权凭证 ID（CI 可校验该字段是否为空）。"
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 27,
+      "length": 55,
+      "text": "你看懂了这个比喻，就已经理解了《素问·评热病论》对闭经最核心的认识：它不看子宫里有什么，它看心脏到子宫的路是不是通的。"
     },
     {
-      "file": "content\\media-guidelines.md",
-      "sentenceIndex": 44,
-      "length": 49,
-      "text": "- 若图片因版权问题需下线：运营在 PR 中添加替换图片并保留原 meta 文件（注明下线原因），并在文章末尾注释说明变更。"
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 30,
+      "length": 34,
+      "text": "**如果你想知道这个比喻背后的原文、历代医家的争论、以及临床上怎么用，往下读。"
     },
     {
-      "file": "content\\media-guidelines.md",
-      "sentenceIndex": 49,
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 38,
+      "length": 58,
+      "text": "这条引文在教材里的全部功能，是为「闭经」这个病名提供一个经得起追问的经典出处——就像论文开头贴一个参考文献，证明你不是在胡说。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 56,
+      "length": 36,
+      "text": "在经络学说中，「属」表示这条经脉的核心归属关系——它属于哪个脏，就从哪个脏发出；"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 67,
+      "length": 60,
+      "text": "意味着月经能不能按时下来，第一个要看的不是子宫内膜的厚度、不是雌激素水平、不是肾精充不充——而是**心气能不能沿着这条通道，下达胞宫**。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 68,
+      "length": 44,
+      "text": "这跟后世妇科「肾主生殖」「肝藏血」的辨证框架并不矛盾，但它提出了一条独立于肾和肝之外的第三条路径。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 74,
+      "length": 37,
+      "text": "一个因果链条：有气上冲，压迫肺 → 肺气膹郁 → 心气不能下行 → 胞脉失去动力 → 胞宫的门关上。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 77,
       "length": 32,
-      "text": "- 在构建时检测图片尺寸与文件大小，不合格给出错误或警告（可用 sharp 脚本）。"
+      "text": "王冰次注《素问》时沿袭了这条路径，认为是热病后期，余邪未清，气逆迫肺。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 78,
+      "length": 33,
+      "text": "这两种注法都说得通，但它们指向的是同一种情形：急性热病后继发的闭经。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 89,
+      "length": 57,
+      "text": "它意味着：一个没有发过高烧、没有感染过病毒的女性，仅仅因为长期的压力和焦虑，也可以出现跟热病后闭经完全相同的病理结果。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 97,
+      "length": 36,
+      "text": "这个「盖」既是解剖位置——肺在心脏上方——也是功能比喻——肺主气，心主血，气不通则血不行。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 113,
+      "length": 47,
+      "text": "胞宫所在的盆腔，对膈肌运动极为敏感——它是腹腔的一部分，每一次腹式呼吸都在对它进行柔和的挤压和释放。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 115,
+      "length": 49,
+      "text": "他没说「补肾精」，没说「调冲任」——这两个词在后世妇科中几乎成了闭经的标准答案——他说的是：先把堵在路上的东西搬开。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 117,
+      "length": 31,
+      "text": "这与现代盆底康复治疗中使用的膈肌呼吸训练有着令人惊讶的对应关系。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 118,
+      "length": 42,
+      "text": "盆底物理治疗师会教导闭经或盆腔疼痛患者进行腹式呼吸，以降低盆底肌张力、改善盆腔血液循环。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 119,
+      "length": 31,
+      "text": "一个清代医家的方案，和一个 21 世纪的盆底康复方案，底层逻辑完全一致。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 121,
+      "length": 40,
+      "text": "他在注文中留下了一条方剂线索：若脉象弦急，从调心思路出发，可先用甘麦大枣汤缓其急。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 124,
+      "length": 38,
+      "text": "张氏把这张方子借过来，不是为了治脏躁，是为了安顿那个「被肺气压迫而不能下通」的心。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 129,
+      "length": 31,
+      "text": "先用甘麦大枣把心的状态稳住，心气稳了，再配合调息让气机自然下行。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 130,
+      "length": 31,
+      "text": "这个次序本身就是一种临床态度——治闭经，先别急着补肾，先看路通不通。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 133,
+      "length": 54,
+      "text": "如果说张志聪在心肺气机上往前走了一步——在一个前人只谈外邪的条文上，开辟了情志内伤的路径——那傅青主就是往回退了一步。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 144,
+      "length": 40,
+      "text": "一条胞脉即使完全通畅，如果脾没有制造出足够的气血，心脏手上没货，胞脉依然是空转的。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 152,
+      "length": 39,
+      "text": "反过来，脾运化正常、气血充足的患者，如果长期处于压力和浅呼吸状态，心气依然下不去。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 154,
+      "length": 57,
+      "text": "两个医家合在一起，闭经的心-肺-胞宫路径就有了完整的三环：上游脾（货从哪里来）、中游心肺（路通不通）、下游胞宫（门开不开）。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 166,
+      "length": 34,
+      "text": "胡天雄在《素问补识》中从音韵学角度论证：「脾」是「痹」的古文通假字，二字古音相同。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 167,
+      "length": 31,
+      "text": "据此，「心脾」不是心和脾两个脏器，而是一个病证——心痹，即胃脘痞塞疼痛。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 170,
+      "length": 38,
+      "text": "他们认为阳明胃经有病，向上波及心和脾——心主血，脾统血，二者受累则血无以生、无以运。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 173,
+      "length": 34,
+      "text": "因为无论「心痹」还是「心脾」，最终的落脚点是同一个：**胃出问题，心和血跟着遭殃。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 180,
+      "length": 41,
+      "text": "在《阴阳别论》本条注文中，他却将「不得隐曲」释为「隐蔽委曲之事」——内心有无法对人言说的苦衷和压抑。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 183,
+      "length": 42,
+      "text": "**张介宾在《类经》中直接点明：忧思过度，心脾受伤，加上隐情难言，情绪长久不得疏泄，才会闭经。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 185,
+      "length": 38,
+      "text": "原文把「有不得隐曲」放在「女子不月」之前——它是病因链条的正中间一环，不是可有可无的状语。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 189,
+      "length": 38,
+      "text": "二阳之病断了原料线，不得隐曲断了运输线——两条原文说的其实是同一个结果的两条来路。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 194,
+      "length": 44,
+      "text": "「二阳之病」强调物质来源——胃为水谷之海，胃不工作了，原料断供，脾没法加工，心没有东西可以往外送。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 197,
+      "length": 38,
+      "text": "即使胃的消化功能正常、脾的运化功能正常、气血充沛——只要心被情志压住了，胞脉一样会闭。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 199,
+      "length": 38,
+      "text": "他知道，没有情志这一环，胃虚→脾虚→血虚的链条解释不了临床上那些「查不出原因的闭经」。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 200,
+      "length": 53,
+      "text": "所以，两条原文合在一起，闭经的完整逻辑是：上游脾（原料）、中游心肺（动力）、下游胞宫（开门）——以及贯穿始终的情志。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 203,
+      "length": 36,
+      "text": "你不需要胃虚，不需要肾虚，不需要血瘀——长期的「不得隐曲」本身，就足以让胞脉闭死。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 214,
+      "length": 37,
+      "text": "如果这些都能排除——激素正常、内膜正常、BMI 正常、没做过宫腔手术——月经就是不来，那么往下看。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 217,
+      "length": 38,
+      "text": "** 观察她说话时是否经常叹气，安静状态下呼吸是否集中在锁骨和上胸部，腹部几乎不动。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 235,
+      "length": 45,
+      "text": "它的核心病理是下丘脑促性腺激素释放激素脉冲频率受抑制，进而导致垂体FSH和LH分泌不足，卵巢缺乏刺激。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 236,
+      "length": 38,
+      "text": "而上游因素中，长期压力和焦虑导致的自主神经紊乱，是GnRH脉冲被抑制的最常见原因之一。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 239,
+      "length": 45,
+      "text": "从分子层面看，压力激活下丘脑-垂体-肾上腺轴（HPA轴），皮质醇水平升高，直接在下丘脑水平抑制GnRH神经元。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 241,
+      "length": 31,
+      "text": "两个模型审视的是同一条因果链，只是用不同的语言说出了同一个东西。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 255,
+      "length": 40,
+      "text": "若辨证为心气郁而不降、兼见情绪低落、善太息、脉沉细，考虑甘麦大枣汤为基础方——甘草、小麦、大枣。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 256,
+      "length": 33,
+      "text": "此方极轻，用意不在攻伐，在安顿心神，为心气的下降创造心理和生理条件。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 258,
+      "length": 44,
+      "text": "若兼脾虚——舌淡胖、食后腹胀、大便不成形——在甘麦大枣基础上合四君子汤，或傅青主的健脾思路，先建中焦。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 260,
+      "length": 32,
+      "text": "用药全程避免苦寒伤胃、避免重镇安神（如龙骨、牡蛎过量会抑制气机下行）。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 263,
+      "length": 63,
+      "text": "取心俞、肺俞（背部俞穴，调理心肺气机）、内关（心包经，通调上焦气机）、关元（任脉，胞宫募穴，引气下行）、三阴交（脾经，肝脾肾三经交会）。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 267,
+      "length": 31,
+      "text": "心脏到子宫之间那条路，路的源头是心，路的障碍是肺，路的补给是脾。"
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 273,
+      "length": 37,
+      "text": "[ref-1] 《素问·评热病论》. 杨上善《黄帝内经太素》注、王冰《次注黄帝内经素问》. 《黄帝内经》校注版, 中华书局, 2005."
+    },
+    {
+      "file": "content\\bijing-xinfei-2026.md",
+      "sentenceIndex": 281,
+      "length": 39,
+      "text": "闭经诊疗须由执业中医师或妇科医生面诊后制定方案，不可自行按文中的方剂或方法用药。"
+    },
+    {
+      "file": "content\\citation-guidelines.md",
+      "sentenceIndex": 31,
+      "length": 43,
+      "text": "1. 为每条声明找到至少一个权威来源（期刊、教材或古籍），或在文中明确标注为“经验描述”“个案”或“观点”。"
+    },
+    {
+      "file": "content\\citation-guidelines.md",
+      "sentenceIndex": 35,
+      "length": 44,
+      "text": "1. 医学、药事或剂量类内容必须经药师或医务人员审核，并在稿件末附上审阅记录（姓名、职称、审核日期）。"
+    },
+    {
+      "file": "content\\citation-guidelines.md",
+      "sentenceIndex": 55,
+      "length": 37,
+      "text": "- 对于“古籍”关键词（如《素问》《本草》），应自动提示上传权威版本信息，或标注“须二次核验”。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 3,
+      "length": 42,
+      "text": "- 统一文章配图的命名、尺寸、元数据、版权与可访问性要求，降低上线风险并提升展示一致性与检索性。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 6,
+      "length": 31,
+      "text": "- 所有发布渠道（网站、微信公众号、APP）相关的图片素材及其元数据管理流程。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 17,
+      "length": 33,
+      "text": "- 优���格式：WebP（有损/无损视素材），次选 JPEG（照片类），PNG 仅用于透明或矢量图/图表。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 45,
+      "length": 33,
+      "text": "- 所有正文图片必须有 `alt` 文本，含义明确、简洁（50 字以内），避免写“图片”或“图1”作为 alt。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 48,
+      "length": 45,
+      "text": "- 图片上若含有文字（截图/海报），在 meta 的 `alt` 中重复该文字摘要，并在 caption 中写出完整文本（以便屏幕阅读器和 SEO）。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 53,
+      "length": 36,
+      "text": "- 非原创图片必须附带授权凭证（采购单、授权邮件、协议），并在 meta 的 `purchase_id` 或 `source` ���段标注凭证信息。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 54,
+      "length": 37,
+      "text": "- 作者原创图片需在 meta 中声明 `photographer: <author-name>` 并注明授权范围（如“作者原创，授权用于本平台长期使用”）。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 60,
+      "length": 33,
+      "text": "- 若图片来自第三方报道或论文，请在 caption 或注释中写清出处并链回原文（可选 DOI）。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 63,
+      "length": 33,
+      "text": "- 前端可基于 DPR 进一步提供 2x、3x 版本（如 retina），但源文件应先保证清晰度与小体积折衷。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 65,
+      "length": 55,
+      "text": "- 如因版权问题需下线图片：在 PR 中提交替换图片并保留原 meta 文件（在 meta notes 中注明下线原因与时间），并在文章末尾注释说明变更与声明。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 74,
+      "length": 31,
+      "text": "- 图片尺寸/体积阈值检测（可用 sharp），不合格给出警告或阻断（按照规则）。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 76,
+      "length": 39,
+      "text": "- 自动生成：当 PR 中新增图片且缺少 meta，CI 可自动生成 meta 模板文件供提交者补全（image-meta-gen.js 已实现类似逻辑）。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 99,
+      "length": 31,
+      "text": "- 若作者上传了截图含第三方版权，请务必上传授权或改用自制/免费素材。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 102,
+      "length": 35,
+      "text": "- 对医学/操作性图片（如操作步骤、医疗演示），在 meta 中注明适用人群限制和免责声明。"
+    },
+    {
+      "file": "content\\image-guidelines.md",
+      "sentenceIndex": 112,
+      "length": 35,
+      "text": "遇到边界场景（例如“二次引用”“老图难以追溯授权”）请先联系法务/版权负责人处理。"
+    },
+    {
+      "file": "content\\media-guidelines.md",
+      "sentenceIndex": 45,
+      "length": 31,
+      "text": "- CMS 上传/审核时须一并上传授权文件到附件库，并在稿件中填写授权凭证 ID；"
+    },
+    {
+      "file": "content\\media-guidelines.md",
+      "sentenceIndex": 48,
+      "length": 52,
+      "text": "- 若图片因版权问题需下线，运营应在 PR 中添加替换图片并保留原 meta 文件（注明下线原因），并在文章末尾注释说明此次变更。"
     },
     {
       "file": "content\\publish-checklist.md",
       "sentenceIndex": 6,
-      "length": 35,
-      "text": "- [ ] 所有医学/处方/剂量相关段落已提交专家复核并有书面意见（责任人/审核人/时间）"
+      "length": 38,
+      "text": "- [ ] 所有医学、处方或剂量相关段落已提交专家复核并有书面意见（责任人、审核人、审核时间）"
     },
     {
       "file": "content\\publish-checklist.md",
       "sentenceIndex": 22,
+      "length": 35,
+      "text": "- [ ] 预案：若发生用户投诉或版权问题，需有初步应对计划并明确责任人及联系方式。"
+    },
+    {
+      "file": "content\\shihu-2026.md",
+      "sentenceIndex": 8,
+      "length": 34,
+      "text": "> 《神农本草经》上品：「石斛，味甘平，主伤中，除痹下气，补五脏虚劳羸瘦，强阴。"
+    },
+    {
+      "file": "content\\shihu-2026.md",
+      "sentenceIndex": 50,
+      "length": 33,
+      "text": "吴鞠通的《温病条辨》里有一张名方叫五汁饮：梨汁、荸荠汁、鲜芦根汁、麦冬汁、藕汁。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 3,
+      "length": 37,
+      "text": "是每天晚上——躺下去脑子开始转，睡着了整夜做梦，凌晨固定时间醒，醒了再也睡不着。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 6,
+      "length": 33,
+      "text": "如果你去翻中医经典，会发现历代大医对失眠的理解，没有一个在说「安神药」。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 15,
+      "length": 34,
+      "text": "夏天睡不着的根本原因，一句话就能说清楚——但也需要一整篇文章才能真的理解。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 22,
+      "length": 48,
+      "text": "金元时期，李东垣在战乱和饥荒中观察到一个现象：大量难民睡不着，不是因为他们焦虑，而是因为**脾胃垮了**。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 26,
+      "length": 34,
+      "text": "脾胃一虚，清气升不上去，反而陷下去堵在下焦，把阳气逼成一股邪火往上冲。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 46,
+      "length": 37,
+      "text": "** 空调要开到最低，手机要刷到眼皮打架，脑子里最后那个念头要自然飘走——才能昏过去。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 52,
+      "length": 36,
+      "text": "这是实火——夏天暑热直接侵入心经，加上每一天的信息轰炸和工作压力，火越烧越旺。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 53,
+      "length": 33,
+      "text": "李东垣说的「火与元气不能两立，一胜则一负」就是这个阶段：火和元气在拉锯。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 76,
+      "length": 40,
+      "text": "这个阶段和第一个阶段有一个关键的区别：第一阶段是入睡难，这个阶段是**睡着比不睡还累**。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 79,
+      "length": 41,
+      "text": "或者凌晨三四点准时睁眼——不是被尿憋醒的，不是被吵醒的，是毫无原因地，眼睛自己就睁开了。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 86,
+      "length": 37,
+      "text": "阴液本来就难积累，夏天大汗淋漓、熬夜、过度劳累——每一样都在把本来就不多的水往外倒。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 95,
+      "length": 39,
+      "text": "熬到凌晨两三点的人，阴虚型失眠只会一夜比一夜更严重——这不是意志力问题，是库存问题。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 100,
+      "length": 34,
+      "text": "张仲景在《金匮要略》里用酸枣仁汤治「虚劳虚烦不得眠」——虚劳加虚烦，酸枣仁是主药。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 106,
+      "length": 56,
+      "text": "睡前温水泡脚，擦干后取肉桂粉约黄豆大一点，加一两滴米醋调成糊状（不要太稀，以能附着为准），涂在涌泉穴上，穿上袜子。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 107,
+      "length": 34,
+      "text": "这个方法叫做引火归元——把浮在脑门上的虚火，顺着经络引回到脚底的肾经里去。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 115,
+      "length": 38,
+      "text": "」光补水不够，得加一点点温阳的东西（比如肉桂），让水能流动起来——死水是养不了鱼的。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 133,
+      "length": 37,
+      "text": "叶天士在《临证指南医案》中治这类虚劳失眠，有一条铁律：不管上损还是下损——**「当治其中」**。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 136,
+      "length": 31,
+      "text": "** 焦山楂、焦麦芽、焦神曲各一小撮（药店直接问「焦三仙」），沸水泡，饭后喝。"
+    },
+    {
+      "file": "content\\xiaji-shimian-2026.md",
+      "sentenceIndex": 189,
+      "length": 52,
+      "text": "三百年后，叶天士把这三个视角合成了一个递进的治疗体系——先分清路断了没有，再判断水还有多少，最后决定怎么清火。"
+    },
+    {
+      "file": "content\\xiaoshu-2026.md",
+      "sentenceIndex": 13,
+      "length": 34,
+      "text": "暑天有两个东西同时攻击脾：一是外湿，空气里水分饱和，毛孔被迫加班排汗。"
+    },
+    {
+      "file": "content\\xiaoshu-2026.md",
+      "sentenceIndex": 46,
+      "length": 37,
+      "text": "闭眼静坐十五分钟也行，关键是闭目养神，别趴桌——压迫颈椎，胃气不降，醒了更昏沉。"
+    },
+    {
+      "file": "content\\xiaoshu-2026.md",
+      "sentenceIndex": 53,
+      "length": 31,
+      "text": "| 发热、口干、小便黄赤 | 可能已化热 | 加菊花两朵清轻之品即可，勿用苦寒重剂 |"
+    },
+    {
+      "file": "content\\xiaoshu-2026.md",
+      "sentenceIndex": 62,
       "length": 32,
-      "text": "- [ ] 预案：若有用户投诉/版权问题的初步应对计划已就绪（责任人/联系方式）"
+      "text": "[ref-2] 中药学（十三五规划教材）. 中国中医药出版社, 2016. 茯苓与土茯苓鉴别，见第 156-158 页."
     }
   ]
 }
